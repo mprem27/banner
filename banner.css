@@ -29,7 +29,7 @@ body{
 }
 .container h1{
     margin: 0;
-    font-size: 80px;
+    font-size: 70px;
     padding: 20px;
 }
 .container h1 i {
@@ -40,6 +40,7 @@ body{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    
     
 }
 .banner{
@@ -60,4 +61,7 @@ body{
 .button:hover{
     opacity: .6s;
     padding: 2px;
+}
+@media screen and (max-width:560px) {
+    
 }
